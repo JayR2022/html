@@ -1,0 +1,19 @@
+em{
+    color: blue;
+}
+
+
+/* descendant combinator */
+p em{color: red;}
+/* direct child */
+body footer{color: limegreen};
+
+
+/* adjacent sibling combinator */
+h1 > p {color:purple};
+
+h1~p {background-color: gray;}
+
+p.hover:hover{
+    color:hotpink
+}
